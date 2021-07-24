@@ -1,17 +1,60 @@
-*, html, body {
+/* *, html, body {
   box-sizing: border-box;
-}
+} */
 body {
-  background-color: pink;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, rgb(235, 120, 235), pink);
   font-family: "Roboto", sans-serif;
+  font-family: 'VT323', monospace;
   text-align: center;
 }
-div {
-  /* margin: 0 auto; */
+#choosePokemon {
+  font-size: 4rem;
+  margin: 0px 20px 30px;
+  background-color: black;
+  color: white;
+  margin: 0px 0px 75px;
+  padding: 20px 0px;
 }
-h3 {
-  font-size: 2rem;
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 20%;
+}
+.character {
+  border: solid black 5px;
+  margin-bottom: 5px;
+}
+.charmander {
+  height: 225px;
+}
+.bulbasaur {
+  height: 225px;
+}
+.squirtle {
+  height: 225px;
+}
+.pokemonTitle {
+  background-color: black;
+  color: white;
+  padding: 6px;
+  font-size: 1.5rem;
 }
 img {
-  width: 200px;
+  width: 125px;
+  background: black;
+  padding: 15px 5px 20px;
+}
+#charmanderImg {
+  background-color: darkorange;
+  padding-bottom: 19px;
+}
+#bulbasaurImg {
+  background-color: lightgreen;
+  padding-bottom: 46px;
+}
+#squirtleImg {
+  background-color: lightblue; 
+  padding-bottom: 36px; 
 }
