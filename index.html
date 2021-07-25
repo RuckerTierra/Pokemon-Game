@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
-  <title>Pokemon Game</title>
-</head>
-<body>
-  <header></header>
-  <main>
-    <div>
-      <div id="charmanderDiv">
-        <h3>Charmander</h3>
-        <img id="charmander" src="images/Uncommon_Charmander.gif" alt="gif of charmander"/>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon Game</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div id="choosePokemon"><h1>Choose a Pokémon</h1></div>
+      <div class="container">
+        <div class="character charmander" data-pokemon="charmander">
+          <h3 class="pokemonTitle">Charmander</h3>
+          <img id="charmanderImg" src="images/charmander.gif" alt="gif of charmander"/>
+        </div>
+        <div class="character bulbasaur" data-pokemon="bulbasaur">
+          <h3 class="pokemonTitle">Bulbasaur</h3>
+          <img id="bulbasaurImg" src="images/bulbasaur.gif" alt="gif of bulbasaur"/>
+        </div>
+        <div class="character squirtle" data-pokemon="squirtle">
+          <h3 class="pokemonTitle">Squirtle</h3>
+          <img id="squirtleImg" src="images/squirtle.gif" alt="gif of squirtle"/>
+        </div>
       </div>
-      <div id="bulbasaurDiv">
-        <h3>Bulbasaur</h3>
-        <img  id="bulbasaur" src="images/Uncommon-Bulbasaur.gif" alt="gif of bulbasaur"/>
-      </div>
-      <div id="squirtleDiv">
-        <h3>Squirtle</h3>
-        <img  id="squirtle" src="images/Uncommon_Squirtle.gif" alt="gif of squirtle"/>
-      </div>
-    </div>
-  </main>
-  <footer></footer>
-  <script src="script.js"></script>
-</body>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
 </html>
